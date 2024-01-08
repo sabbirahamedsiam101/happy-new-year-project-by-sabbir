@@ -88,21 +88,29 @@ main{
 } 
 
 /* 3rd section */
-.heading3{
+
+/* .heading3{
     color: #FFF;
     font-size: 55px;
     font-weight: 900;
-    line-height: 70px; /* 137.5% */
+    line-height: 70px; 
     letter-spacing: 7.04px;
     padding: 110px 0px 0px 110px;
 }
 
+.banner2{
+    margin-top: 50px;
+    position: relative;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 10px;
+    height: 500px;
+}
 .para3{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px; 
     padding: 17px 0px 0px 110px;
     width: 670px;
 }
@@ -121,6 +129,76 @@ main{
     border: 2px solid whitesmoke;
     padding: 6px 12px;
 }
+.Group70{
+    position: absolute;
+    right: 0px;
+    display: block;
+    width: 200px;
+    top: 50px;
+    z-index: 5;
+} */
+
+ .firstSection{
+ }
+
+ .banner2{
+    height: 500px;
+    position: relative;
+    display: flex;
+ }
+ .leftsec{
+    height: auto;
+ }
+ .Vectorrr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -5;
+ } 
+
+ .Vectorrr{
+
+ }
+
+ .heading3{
+    color: #FFF;
+    font-size:60px;
+    font-weight: 900;
+    line-height: 75px; 
+    letter-spacing: 7.04px;
+    padding: 100px 0px 0px 100px;
+ }
+ .para3{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding: 30px 0px 0px 100px;
+    width: 640px;
+ }
+
+ .joinNow{
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: transparent;
+    margin: 25px 0px 0px 110px;
+    border: 2px solid whitesmoke;
+    padding: 6px 12px;
+}
+ .Group70{
+  max-width: 250px;
+  margin-top: 60px;
+ }
+
 
 /* 4th section */
 .fourSection{
